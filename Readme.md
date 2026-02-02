@@ -1,12 +1,7 @@
-
-
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://archive.org/download/debian-logo/debian-logo.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://archive.org/download/litecraft_main/litecraft_main.png">
-    <img alt="Litecraft" src="https://archive.org/download/litecraft_main/litecraft_main.png" height="100" width="100">
-  </picture>
+  <img src="https://archive.org/download/litecraft_main/litecraft_main.png" width="220">
 </p>
+
 
 <h4 align="center">Minimal linux distribution, based on <a href="https://www.debian.org/"> debian</a>.</h4>
 
