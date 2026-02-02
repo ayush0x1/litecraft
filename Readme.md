@@ -1,5 +1,11 @@
+
+
 <p align="center">
-	<a href="https://github.com/ayush0x1/litecraft"><img src="https://archive.org/download/debian-logo/debian-logo.png" height="128" width="128" alt="litecraft"></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://archive.org/download/debian-logo/debian-logo.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://archive.org/download/litecraft_main/litecraft_main.png">
+    <img alt="Litecraft" src="https://archive.org/download/litecraft_main/litecraft_main.png" height="100" width="100">
+  </picture>
 </p>
 
 <h4 align="center">Minimal linux distribution, based on <a href="https://www.debian.org/"> debian</a>.</h4>
