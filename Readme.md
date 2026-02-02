@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  	<a href="https://github.com/ayush0x1/litecraft"><img src="https://archive.org/download/ezgif-51bdf0eec0cb4e45/ezgif-51bdf0eec0cb4e45.gif" alt="litecraft"></a>
+  	<a href="https://github.com/ayush0x1/litecraft"><img src="https://archive.org/download/ezgif-5b2fef2570ed3022/ezgif-5b2fef2570ed3022.gif" alt="litecraft"></a>
 </p>
 
 <p align="center">
