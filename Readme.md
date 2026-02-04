@@ -26,3 +26,8 @@
 
 
 <p align="center"> litecraft is available for download via Google Drive </p> <p align="center"> <b>Download:</b></p> <p align="center"> <a href="https://drive.google.com/file/d/1AykKwtRe7FLxVz4qyX6sjFd-UOGkbgHC/view?usp=sharing"> <img src="https://img.shields.io/badge/Download-Google%20Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white"> </a> 
+
+<p align="center">
+  <a href="https://litecraft-linux.netlify.app/">
+    <img src="https://img.shields.io/badge/Website-litecraft-000000?style=for-the-badge">
+  </a>
