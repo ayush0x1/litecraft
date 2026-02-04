@@ -31,3 +31,6 @@
   <a href="https://litecraft-linux.netlify.app/">
     <img src="https://img.shields.io/badge/Website-litecraft-000000?style=for-the-badge">
   </a>
+
+
+<p align="center">Like this project? Give it a star <img src="https://camo.githubusercontent.com/867dcb55081bd7c09bd7f50a3f52bcea81e782765e8d786e064551d593ac2dc1/68747470733a2f2f6f70656e67616d656172742e6f72672f73697465732f64656661756c742f66696c65732f4d61676963616c2532307261696e626f772532307374617225323031323870782532306769662e676966" height="30" /> It helps the project grow and keeps me motivated. </p>
