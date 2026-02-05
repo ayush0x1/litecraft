@@ -1,0 +1,6 @@
+#!/bin/bash
+# set Dracula-withoutBorder theme by ayush
+
+mkdir -p /etc/skel/.config/openbox /root/.config/openbox
+cp -r /usr/share/themes/Dracula-withoutBorder/openbox-3/* /etc/skel/.config/openbox/
+cp -r /usr/share/themes/Dracula-withoutBorder/openbox-3/* /root/.config/openbox/

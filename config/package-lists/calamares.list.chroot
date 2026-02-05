@@ -1,0 +1,13 @@
+calamares
+ntp
+sudo
+rsync
+partitionmanager
+os-prober
+qt5-style-plugins
+qml-module-qtquick-controls
+qml-module-qtquick-layouts
+qml-module-qtgraphicaleffects
+policykit-1
+lxpolkit
+calamares-settings-debian

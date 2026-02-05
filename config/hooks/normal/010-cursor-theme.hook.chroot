@@ -1,0 +1,6 @@
+#!/bin/bash
+echo '[Icon Theme]
+Inherits=WinSur-white-cursors' > /usr/share/icons/default/index.theme
+echo 'export XCURSOR_THEME=WinSur-white-cursors
+export XCURSOR_SIZE=24' > /etc/skel/.xprofile
+cp /etc/skel/.xprofile /root/

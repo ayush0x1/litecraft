@@ -1,0 +1,37 @@
+---
+componentName:   litecraft
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,520px
+windowPlacement: center
+
+strings:
+    productName:         litecraft
+    shortProductName:    litecraft
+    version:             1
+    shortVersion:        1
+    versionedName:       litecraft 1
+    shortVersionedName:  litecraft 1
+    bootloaderEntryName: litecraft
+#    productUrl:          https://debian.org
+ #   supportUrl:          https://www.debian.org/support
+  #  knownIssuesUrl:      https://bugs.debian.org
+   # releaseNotesUrl:     https://www.debian.org/releases/bullseye/releasenotes
+    #donateUrl:           https://www.debian.org
+
+images:
+    productLogo:         "debian-logo.png"
+    productIcon:         "debian-logo.png"
+    productWelcome:      "welcome.png"
+    productWallpaper:    "wallpaper.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2c3133"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#4d7079"
+   sidebarTextSelect:    "#292F34"
+
+slideshowAPI: 2

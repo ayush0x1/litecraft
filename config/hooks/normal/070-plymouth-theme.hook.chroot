@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "[+] Configuring Plymouth boot splash..."
+
+plymouth-set-default-theme -R lite_craft
+update-initramfs -u -k all
+
+echo "[+] done"

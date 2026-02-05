@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- i love html css js, i learn in 7th class -!-->
+  <div class="card">
+	  
+	  
+    <img height="90" src="debian-logo.png">
+    <p>Fast •  Lightweight • Minimal</p>
+     
+    <button onclick="startInstaller()">Install Litecraft</button>
+    <button onclick="docs()">Documentation</button>
+  </div>
+
+  <script> 
+   function startInstaller() {
+    window.webkit.messageHandlers.installer.postMessage("start");
+    }
+  </script>
+</body>
+</html>

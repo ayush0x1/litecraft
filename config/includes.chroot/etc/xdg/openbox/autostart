@@ -1,0 +1,9 @@
+feh --bg-scale /usr/share/backgrounds/default.jpg &
+picom &
+lxpolkit &
+
+if [ -x "$HOME/.config/polybar/simple/docky/launch.sh" ]; then
+    bash "$HOME/.config/polybar/simple/docky/launch.sh" &
+    fi
+
+    

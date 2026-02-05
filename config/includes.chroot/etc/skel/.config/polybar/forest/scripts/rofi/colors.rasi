@@ -1,0 +1,10 @@
+/* colors */
+
+* {
+  al:   black;
+  bg:   black;
+  bga:  black;
+  fg:   white;
+  ac:   white;
+  se:   white;
+}

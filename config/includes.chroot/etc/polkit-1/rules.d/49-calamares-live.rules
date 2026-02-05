@@ -1,0 +1,6 @@
+polkit.addRule(function(action, subject) {
+    if (action.id == "org.calamares.calamares" &&
+        subject.active && subject.local) {
+        return polkit.Result.YES;
+    }
+});

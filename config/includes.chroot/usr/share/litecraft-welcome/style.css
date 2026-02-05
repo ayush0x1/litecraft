@@ -1,0 +1,43 @@
+*{
+padding:0px;
+margin:0px;
+}
+
+body {
+  background-image: url("wall2.jpg");
+  background-color:black;
+  color: #e5e7eb;
+  background-size:cover;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  font-family: "SN Pro", sans-serif;
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px;
+  color:white;
+  border-radius: 0px;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  color:white;
+  border-radius: 0px;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+button:hover {
+  background-color:white;
+  color:black;
+}

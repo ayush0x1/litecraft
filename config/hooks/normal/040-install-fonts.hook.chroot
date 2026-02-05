@@ -1,0 +1,59 @@
+#!/bin/bash
+set -e
+
+echo "Installing custom fonts..."
+
+# 1. Install fontconfig utilities
+
+# 2. Copy fonts from includes to system fonts directory
+if [ -d "/usr/local/share/fonts" ] && [ -n "$(ls -A /usr/local/share/fonts/ 2>/dev/null)" ]; then
+    echo "Copying custom fonts..."
+    
+    # Copy to system fonts directory
+    mkdir -p /usr/share/fonts/truetype/custom/
+    cp /usr/local/share/fonts/* /usr/share/fonts/truetype/custom/ 2>/dev/null || true
+    
+    # Update font cache
+    fc-cache -f -v
+    
+    echo "Font cache updated."
+else
+    echo "No custom fonts found in /usr/local/share/fonts/"
+fi
+
+# 3. Create fontconfig configuration for polybar fonts
+mkdir -p /etc/fonts/conf.avail/
+cat > /etc/fonts/conf.avail/65-polybar-fonts.conf << 'FONT_CONFIG'
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+    <!-- Add custom fonts directory -->
+    <dir>/usr/share/fonts/truetype/custom</dir>
+    <dir>/usr/local/share/fonts</dir>
+    
+    <!-- Font aliases for polybar -->
+    <alias>
+        <family>fantasque sans mono</family>
+        <prefer>
+            <family>Fantasque Sans Mono</family>
+        </prefer>
+    </alias>
+    <alias>
+        <family>feather</family>
+        <prefer>
+            <family>Feather</family>
+        </prefer>
+    </alias>
+    <alias>
+        <family>iosevka nerd font</family>
+        <prefer>
+            <family>Iosevka Nerd Font</family>
+        </prefer>
+    </alias>
+</fontconfig>
+FONT_CONFIG
+
+# Enable the font config
+ln -sf /etc/fonts/conf.avail/65-polybar-fonts.conf /etc/fonts/conf.d/65-polybar-fonts.conf
+
+echo "Custom fonts installed and configured."

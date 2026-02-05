@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Install Litecraft
+Exec=pkexec calamares
+Icon=litecraft-installer
+Terminal=false
+Categories=System;
+

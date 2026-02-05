@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Install Litecraft
+Comment=Install Litecraft Linux
+Exec=pkexec calamares
+Icon=calamares
+Terminal=false
+OnlyShowIn=Openbox;
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+

@@ -1,0 +1,26 @@
+#!/bin/sh
+
+# compositor
+picom &
+
+# network
+nm-applet &
+
+# policykit (MUST be before Calamares)
+lxpolkit &
+
+# wallpaper
+feh --randomize --bg-fill /usr/share/backgrounds/* &
+
+# polybar
+if command -v polybar >/dev/null; then
+    sleep 1
+    [ -x "$HOME/.config/polybar/launch.sh" ] && \
+        "$HOME/.config/polybar/launch.sh" &
+fi
+
+# ---- Calamares auto-launch (LIVE only, run as root) ----
+if [ -e /run/live/medium ] && command -v calamares >/dev/null 2>&1; then
+    sleep 3
+    python3 /usr/share/litecraft-welcome/main.py &
+fi
